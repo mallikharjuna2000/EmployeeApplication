@@ -1,0 +1,18 @@
+CREATE TABLE emp1 (
+    eno INT PRIMARY KEY,
+    ename VARCHAR(255),
+    esal FLOAT,
+    eaddr VARCHAR(255)
+);
+INSERT INTO emp1 (eno, ename, esal, eaddr)
+VALUES (1, 'John Doe', 50000.00, '123 Main St, Anytown, USA');
+
+INSERT INTO emp1 (eno, ename, esal, eaddr)
+VALUES (2, 'Jane Smith', 60000.00, '456 Elm St, Othertown, USA');
+
+INSERT INTO emp1 (eno, ename, esal, eaddr)
+VALUES (3, 'Alice Johnson', 55000.00, '789 Oak St, Sometown, USA');
+
+INSERT INTO emp1 (eno, ename, esal, eaddr)
+VALUES (4, 'Bob Brown', 70000.00, '101 Maple St, Newcity, USA');
+ select*from emp1;
